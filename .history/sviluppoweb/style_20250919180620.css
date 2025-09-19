@@ -1,6 +1,15 @@
+ > marco:
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Cangiano | Sviluppatore Web</title>
+    <meta name="description" content="Sviluppatore web specializzato nella creazione di siti su misura per ogni esigenza. Trasformo le tue idee in esperienze digitali uniche.">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-
+    <style>
         /* Stili Generali e Reset */
         :root {
             --color-background: #0d1117;
@@ -144,7 +153,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         }
 
-
+> marco:
 .contact-card p {
             font-size: 1rem;
             color: var(--color-text-primary);
@@ -284,7 +293,7 @@
                 margin-top: 1rem;
             }
 
-
+> marco:
 .nav-links li {
                 margin: 0 0.5rem;
             }
@@ -296,3 +305,79 @@
                 font-size: 2.5rem;
             }
         }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">WEB</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#chi-sono">Chi Sono</a></li>
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Sviluppiamo il Tuo Futuro Digitale</h1>
+                    <p class="subtitle">Soluzioni Web su Misura per ogni Esigenza</p>
+                    <div class="contact-card">
+                        <p><i class="fas fa-phone"></i> +39 320 752 1348</p>
+                        <p><i class="fas fa-envelope"></i> c.marcosviluppoweb@gmail.com</p>
+                        <a href="#progetti" class="btn btn-primary">SCOPRI DI PIÙ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="chi-sono" class="about">
+            <div class="container">
+                <h2>Chi Sono</h2>
+                <div class="about-content">
+                    <img src="assets/tua-foto.jpg" alt="La tua foto" class="profile-pic">
+                    <p>Sono Marco Cangiano, uno sviluppatore web con la passione per la creazione di esperienze digitali che non solo funzionano, ma emozionano. Credo fermamente che un sito web debba essere un perfetto connubio tra estetica, funzionalità e performance. Il mio approccio si basa sull'ascolto attento delle tue esigenze per tradurre la tua visione in un prodotto unico e su misura...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servizi" class="services">
+            <div class="container">
+                <h2>Cosa Offro</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>Siti Vetrina</h3>
+                        <p>Realizzo siti web eleganti e professionali per presentare al meglio la tua attività o il tuo portfolio online.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>E-commerce</h3>
+                        <p>Soluzioni complete e ottimizzate per vendere i tuoi prodotti online in modo sicuro e intuitivo.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Sviluppo Personalizzato</h3>
+                        <p>Trasformo le tue idee uniche in applicazioni web e piattaforme create su misura per le tue specifiche necessità.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="progetti" class="portfolio">
+            <div class="container">
+                <h2>I miei lavori</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="assets/progetto1.jpg" alt="Progetto 1">
+                        <h3>Nome Progetto 1</h3>
+                        <p>Descrizione breve del progetto, tecnologie usate (es. HTML, CSS, JavaScript).</p>
