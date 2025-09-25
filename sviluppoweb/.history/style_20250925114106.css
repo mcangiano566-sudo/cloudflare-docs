@@ -502,14 +502,8 @@
             text-decoration: none;
             font-weight: bold;
             transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-            .btn_btn-secondary{
-            background-color: var(--color-accent);
-            color: var(--color-text-primary);
-            border: none;
-        }
 
-        .btn_btn-secondary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(44, 82, 237, 0.4);
-        }
+
+
+
+}
